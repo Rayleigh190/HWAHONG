@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/imagescroll" android:layout_height="fill_parent" android:layout_width="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	 
+	<TextView
+		android:id="@+id/Textview"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="" />
+	 
+	 <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+	
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text=""/>
+	
+	<TextView
+		android:id="@+id/Textview"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="\n\n\n\n\n\n\n\n" />
+	
+	<Button
+		android:id="@+id/Button1"
+		android:layout_height="wrap_content"
+		android:layout_width="300dp"
+		android:layout_gravity="center"
+		android:text="우리학교 홈페이지 가기"
+		android:textColor="#000000" />
+		
+	<TextView
+		android:id="@+id/Textview"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text="       ------------------------------------------------" 
+    	android:textColor="#FFDC30" />
+		
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="    -학교관련" 
+    	android:textColor="#FF8200" 
+		android:textSize="50px"/>
+	<Button
+		android:id="@+id/Button2"
+		android:layout_height="wrap_content"
+		android:layout_width="300dp"
+		android:layout_gravity="center"
+		android:text="학교소개"
+    	android:textColor="#000000"/>
+	
+	<TextView
+		android:id="@+id/Textview"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="" />
+		
+			<Button
+				android:id="@+id/Button3"
+				android:layout_height="wrap_content"
+				android:layout_width="300dp"
+			   android:layout_gravity="center"
+				android:text="학교운영"
+            	android:textColor="#000000" />
+	<TextView
+		android:id="@+id/Textview"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="       ------------------------------------------------ " 
+    	android:textColor="#FFDC30" />
+		
+	<TextView
+		android:id="@+id/Textview"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="    -기타" 
+	    android:textColor="#FF8200" 
+		android:textSize="50px"/>
+	
+</LinearLayout>
+</ScrollView>
